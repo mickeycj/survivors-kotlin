@@ -1,0 +1,11 @@
+# User-specific stuff:
+.idea/**/workspace.xml
+
+# Gradle:
+.idea/**/libraries
+
+# IntelliJ
+/out/
+
+# Package Files #
+*.jar

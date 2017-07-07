@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Survivors:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Survivors_jar</output-path>
+    <root id="archive" name="Survivors.jar">
+      <element id="module-output" name="Survivors" />
+      <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-runtime.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$KOTLIN_BUNDLED$/lib/kotlin-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/core.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
