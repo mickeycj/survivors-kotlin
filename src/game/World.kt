@@ -31,6 +31,7 @@ class World(val pApplet: PApplet, faces: List<PImage>) : Component {
 
     init {
         faces.indices.mapTo(enemyPool) { Enemy(pApplet, faces[it]) }
+        enemyPool.removeAt(0)
         initEnemies()
     }
 
